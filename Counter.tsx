@@ -15,7 +15,7 @@ export default function Counter() {
 
   const decrementCounter = () => {
     dispatch({type: "DECREMENT_COUNTER"});
-  }
+  };
 
   return (
     <View style={styles.container}>
